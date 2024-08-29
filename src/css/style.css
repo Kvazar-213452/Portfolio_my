@@ -1,0 +1,224 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body{
+    background-color: #0b101e !important;
+    color: #ffffff !important;
+    font-family: "Consolas", sans-serif !important; 
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {width: 12px; }
+
+::-webkit-scrollbar-thumb {background-color: #131723; }
+
+::-webkit-scrollbar-track {background-color: #212636; }
+
+.color_name{
+    position: absolute;
+    left: 150px;
+    font-weight: bold;
+}
+
+.color_g{color: #2de98f !important;}
+
+.color_def{color: #ffffff !important;}
+
+.cover-container {max-width: 42em;}
+
+.nav-masthead .nav-link {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {color: #2de98f !important;}
+
+.nav-masthead .nav-link + .nav-link {margin-left: 1rem;}
+
+.menu{
+    position: fixed;
+    background-color: #070d1b;
+    width: 100%;
+    z-index: 10;
+}
+
+.sectiont_1,
+.sectiont_2,
+.sectiont_3{
+    position: relative;
+    width: 100%;
+    top: 64px;
+    height: 600px;
+}
+
+.sectiont_1{
+    height: 550px;
+}
+
+.descr{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: 700px;
+    height: 370px;
+}
+
+.name_descr{
+    position: relative;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.my_name{
+    font-size: 53px;
+    font-weight: bold;
+}
+
+.px-0{
+    position: relative;
+    margin-left: 15px !important;
+    left: -10px;
+}
+
+.what_l_know{
+    position: relative;
+    top: 10px;
+    color: #bfbfbf;
+    font-size: 25px;
+}
+
+.what_l_know_text{
+    position: relative;
+    top: 20px;
+    color: #bfbfbf;
+}
+
+.text_center{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+}
+
+.progress-bar {
+    position: relative;
+    width: 350px;
+    left: 10px;
+    border-radius: 3px;
+}
+
+.name_progress-bar {
+    font-size: 19px;
+    position: relative;
+    left: 10px;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 7px; 
+    background-color: #404551;
+    
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #2de98f;
+    transition: width 0.3s ease;
+}
+
+.div_my_skils{
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.text_lorem{
+    position: relative;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.div_lorem{
+    position: relative;
+    float: left;
+    width: 45%;
+}
+
+.text_more_lorem{
+    position: relative;
+    top: 40px;
+}
+
+.div_proset_margin{
+    position: relative;
+    margin-bottom: 10px !important;
+}
+
+.Projects_div{
+    position: relative;
+    left: 150px;
+    width: calc(100% - 300px);
+    top: 60px;
+}
+
+.div_prg{
+    position: relative;
+    margin-bottom: 25px !important;
+    width: 100%;
+    background-color: #0f1527;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.img_prg{
+    position: relative;
+    float: left;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.name_prg{font-size: 20px;}
+
+.div_content {
+    position: relative;
+    left: 10px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    width: 60%;
+    white-space: normal;
+    word-wrap: break-word; 
+}
+
+a{
+    color: #2de98f !important;
+    transition: all 0.3s;
+}
+
+a:hover{opacity: 0.5;}
+
+.div_prg {
+    height: 200px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
+.text_lorem_small{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    color: #bfbfbf;
+}
+
+.nav-link{
+    transition: all 0.3s !important;
+    cursor: pointer !important;
+}
+
+.percentage_div{
+    position: relative;
+    left: 15px;
+    height: 800px;
+}
