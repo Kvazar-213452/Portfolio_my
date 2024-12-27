@@ -27,7 +27,7 @@ const App = () => {
                 <a className='nav-link fw-bold py-1 px-0' onClick={() => scrollToSection(homeRef)}>Home</a>
                 <a className='nav-link fw-bold py-1 px-0' onClick={() => scrollToSection(skillsRef)}>Skills</a>
                 <a className='nav-link fw-bold py-1 px-0' onClick={() => scrollToSection(projectsRef)}>Projects</a>
-                <a className='nav-link fw-bold py-1 px-0'href='https://github.com/Conar365'>Github</a>
+                <a className='nav-link fw-bold py-1 px-0'href='https://github.com/Kvazar-213452'>Github</a>
               </nav>
             </div>
           </header>
@@ -48,7 +48,7 @@ const App = () => {
         <div className='div_my_skils'>
           <div className='div_lorem'>
             <p className='text_lorem'>My knowledge is in percentages. Knowledge in my main areas.</p>
-            <p className='text_lorem_small'>My github is <a href='https://github.com/Conar365'>https://github.com/Conar365</a></p>
+            <p className='text_lorem_small'>My github is <a href='https://github.com/Kvazar-213452'>https://github.com/Kvazar-213452</a></p>
             <p className='text_more_lorem'>
               Besides coding, I enjoy collaborating with teams, brainstorming innovative solutions, and contributing to open source projects. My goal is to create user-centric applications that not only solve problems, but also provide a pleasant user experience.
             </p>
