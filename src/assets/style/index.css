@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'consolas';
+  src: url('../consolas.ttf') format('truetype');
+}
+
+body {
+  background-color: #22222e;
+  font-family: 'consolas', sans-serif;
+  color: white;
+  height: 100vh;
+  position: relative; 
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+}
