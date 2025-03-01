@@ -17,9 +17,12 @@ defineProps<{ url: string; lang: string[] }>()
 
 <style scoped>
 .item {
-  width: 145%;
   position: relative;
-  left: -130px;
+  left: 0px;
+  margin-top: 0;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .lang {
@@ -75,10 +78,9 @@ h3 {
 
 @media (min-width: 1024px) {
   .item {
-    margin-top: 0;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    position: relative;
+    left: -170px;
+    width: calc(100% + 180px);
   }
 }
 </style>

@@ -4,11 +4,6 @@
 import Welcome from './components/Welcome.vue'
 import ItemMain from './components/ItemMain.vue'
 
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
@@ -20,16 +15,6 @@ import SupportIcon from './icons/IconSupport.vue'
         <h3>Hi, I'm a fullstack developer!</h3>
       </div>
       <ItemMain>
-        <template #icon>
-          <DocumentationIcon />
-        </template>
-        <template #heading>Description</template>
-        A Full-Stack Developer is a versatile software engineer skilled in both front-end and back-end development. They work with various technologies, including databases, servers, APIs, and user interfaces, to build complete web or mobile applications. Proficient in languages like JavaScript, Python, or Java, they handle everything from designing user experiences to managing server logic, ensuring seamless functionality across the entire stack.
-      </ItemMain>
-      <ItemMain>
-        <template #icon>
-          <DocumentationIcon />
-        </template>
         <template #heading>Description</template>
         A Full-Stack Developer is a versatile software engineer skilled in both front-end and back-end development. They work with various technologies, including databases, servers, APIs, and user interfaces, to build complete web or mobile applications. Proficient in languages like JavaScript, Python, or Java, they handle everything from designing user experiences to managing server logic, ensuring seamless functionality across the entire stack.
       </ItemMain>
@@ -41,9 +26,32 @@ import SupportIcon from './icons/IconSupport.vue'
   <main>
     <Welcome />
   </main>
+
+  <footer>
+    <a class="link" href="">My Github</a>
+  </footer>
 </template>
 
 <style scoped>
+.link {
+  color: var(--main_color);
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all .4s;
+}
+
+.link:hover {opacity: 0.5;}
+
+footer {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--bg_2);
+  border-radius: 5px;
+}
 
 h1 {
   font-weight: 500;
