@@ -19,10 +19,7 @@ a {
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+  body {padding-top: 20px;}
 
   #app {
     display: grid;

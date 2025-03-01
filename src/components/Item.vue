@@ -16,6 +16,12 @@ defineProps<{ url: string; lang: string[] }>()
 </template>
 
 <style scoped>
+.item {
+  width: 145%;
+  position: relative;
+  left: -130px;
+}
+
 .lang {
   position: relative;
   top: 5px;
