@@ -37,7 +37,13 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => (
               </div>
               <div className="project-links">
                 {project.links.map((link, linkIndex) => (
-                  <a key={linkIndex} href={link.url} className="project-link">
+                  <a
+                    key={linkIndex}
+                    href={link.url}
+                    className="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {link.label}
                   </a>
                 ))}

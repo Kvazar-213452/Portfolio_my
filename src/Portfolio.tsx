@@ -8,45 +8,43 @@ import { useTypingEffect } from './hooks/useTypingEffect';
 import { useIntersectionObserver } from './hooks/useIntersectionObserver';
 
 const skills = [
-  { name: 'Node.js', level: 'Expert Level' },
+  { name: 'Node.js', level: 'Advanced' },
   { name: 'React', level: 'Advanced' },
   { name: 'MongoDB', level: 'Advanced' },
-  { name: 'Express.js', level: 'Expert Level' },
+  { name: 'Electron', level: 'Expert Level' },
   { name: 'TypeScript', level: 'Advanced' },
-  { name: 'Docker', level: 'Intermediate' },
-  { name: 'AWS', level: 'Intermediate' },
-  { name: 'GraphQL', level: 'Advanced' }
+  { name: 'Flater', level: 'Intermediate' },
+  { name: 'Golang', level: 'Intermediate' },
+  { name: 'Python', level: 'Advanced' }
 ];
 
 const projects = [
   {
-    icon: '🚀',
-    title: 'Microservices API',
-    description: 'Розподілена система мікросервісів з Docker контейнерами, API Gateway та автоматичним масштабуванням.',
-    tech: ['Node.js', 'Docker', 'Kubernetes', 'Redis'],
+    icon: '🛡️',
+    title: 'Security hub',
+    description: 'This is an antivirus with a large modular architecture. A key feature of the project is that its modules can be activated and deactivated as needed.',
+    tech: ['Node.js', 'Golang', 'C++', 'Web', 'Python', 'C#'],
     links: [
-      { label: 'GitHub →', url: '#' },
-      { label: 'Live Demo →', url: '#' }
+      { label: 'GitHub →', url: 'https://github.com/Kvazar-213452/security_hub' },
+      { label: 'Live Demo →', url: 'https://spx-security-hub.wuaze.com/page/main?i=2' }
+    ]
+  },
+  {
+    icon: '🔐',
+    title: 'Voxta',
+    description: 'This is an app similar to Signal. Voxta is a messenger that ensures secure data transmission through end-to-end encryption and supports both online and offline chats. On pc and microservices architecture.',
+    tech: ['Node.js', 'TypeScript', 'Java', 'Electron.js'],
+    links: [
+      { label: 'GitHub →', url: 'https://github.com/Kvazar-213452/Voxta' }
     ]
   },
   {
     icon: '⚡',
-    title: 'Real-time Analytics',
-    description: 'Платформа для аналітики в реальному часі з WebSocket з\'єднаннями та машинним навчанням.',
-    tech: ['Socket.io', 'React', 'TensorFlow.js', 'PostgreSQL'],
+    title: 'Voxta mobile',
+    description: 'This is an app similar to Signal. Voxta is a messenger that ensures secure data transmission through end-to-end encryption and supports both online and offline chats. On mobile and microservices architecture.',
+    tech: ['Flater', 'Java', 'TypeScript', 'Node.js'],
     links: [
-      { label: 'GitHub →', url: '#' },
-      { label: 'Live Demo →', url: '#' }
-    ]
-  },
-  {
-    icon: '🎯',
-    title: 'GraphQL Gateway',
-    description: 'Універсальний GraphQL Gateway для об\'єднання множинних API та оптимізації запитів.',
-    tech: ['GraphQL', 'Apollo Server', 'Node.js', 'MongoDB'],
-    links: [
-      { label: 'GitHub →', url: '#' },
-      { label: 'Documentation →', url: '#' }
+      { label: 'GitHub →', url: 'https://github.com/Kvazar-213452/Voxta-mobile' }
     ]
   },
   {

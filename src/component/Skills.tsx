@@ -12,13 +12,13 @@ interface SkillsProps {
 const Skills: React.FC<SkillsProps> = ({ skills }) => (
   <section id="skills" className="skills">
     <div className="container">
-      <h2 className="section-title">Навички</h2>
+      <h2 className="section-title">Skills</h2>
       <div className="skills-container">
         <div className="skills-text">
-          <h3>Технічний стек</h3>
+          <h3>Technical stack</h3>
           <p>
-            Володію широким спектром сучасних технологій для розробки повнофункціональних веб-додатків. 
-            Від серверної логіки до користувацького інтерфейсу - створюю комплексні рішення.
+            I have a wide range of modern technologies for developing full-featured web and mobile applications.
+            From server-side logic to user interfaces — I create comprehensive solutions.
           </p>
         </div>
         <div className="skills-grid">
