@@ -207,7 +207,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
         </div>
       )}
       
-      <style jsx>{`
+      <style>{`
         .projects {
           padding: 8rem 0;
           background: #0a0a0a;

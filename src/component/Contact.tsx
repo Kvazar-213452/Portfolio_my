@@ -135,7 +135,7 @@ const Contact: React.FC<ContactProps> = ({ contacts, scrollToSection }) => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .contact {
           padding: 8rem 0;
           background: radial-gradient(ellipse at center, #0f0f23 0%, #050505 100%);

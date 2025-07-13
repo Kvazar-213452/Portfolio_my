@@ -191,7 +191,7 @@ const About: React.FC = () => {
 
               {/* Stats */}
               <div className="stats-grid">
-                {stats.map((stat, index) => (
+                {stats.map((stat) => (
                   <div key={stat.label} className="stat-item">
                     <div className="stat-icon">{stat.icon}</div>
                     <div className="stat-number">{stat.number}</div>
